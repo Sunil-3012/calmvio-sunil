@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar.jsx';
 
-const API_BASE = '/api';
+const API_BASE = 'https://calmvio-production.up.railway.app/api';
 
 const MOODS = [
   { score: 1, emoji: '😞', label: 'Very Low' },
